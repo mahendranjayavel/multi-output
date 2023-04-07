@@ -1,0 +1,45 @@
+print_title: "Cordova plugin for Fire TV Catalog Integration"
+print_subtitle: Version 1.0
+sidebar: firetv
+folder_path: /Users/tomjoht/projects/Appstore-alexa-docs-gitfarm/_site
+
+language: english
+target: jekyll
+format: pdf
+
+destination: _site
+port: 4000
+highlighter: rouge
+exclude:
+  - mobi
+  - pdf
+
+
+image_path: docs
+markdown: kramdown
+kramdown:
+ input: GFM
+ auto_ids: true
+ hard_wrap: false
+ syntax_highlighter: rouge
+
+collections:
+  docs:
+    output: true
+
+sass:
+    style: compressed
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: pages
+    values:
+      layout: printpdf
+  -
+    scope:
+      path: ""
+      type: docs
+    values:
+      layout: printpdf
