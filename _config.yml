@@ -3,12 +3,13 @@ title: Digital.ai TeamForge
 # comment the logo below to use a text title instead of image title. Logo images are constrained at 50px in height.
 logo: companylogo.svg
 favicon: favicon.ico
-url: index.html
-copyright: 2017 Your Company, Inc.
+url: https://hilarious-truffle-95b68d.netlify.app
+copyright: 2023 Digital.ai, Inc.
 
 language: english
 target: web
-sidebar: jekyllhowto
+sidebars:
+- jekyllhowto
 
 navbar_links_align: right
 
@@ -78,7 +79,7 @@ defaults:
 # you can modify the breadcrumb in _includes/logo.html
 breadcrumb_display: true
 breadcrumb:
-  home_url: http://yourcompanysite.com
+  home_url: https://digital.ai
   home_name: Home
 
 ########## UI text ###############
