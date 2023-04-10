@@ -1,4 +1,4 @@
-title: Doc Theme for Jekyll -- Multi-output
+title: Digital.ai TeamForge
 
 # comment the logo below to use a text title instead of image title. Logo images are constrained at 50px in height.
 logo: companylogo.svg
@@ -8,9 +8,7 @@ copyright: 2017 Your Company, Inc.
 
 language: english
 target: web
-sidebars:
-  - generic
-  - jekyllhowto
+sidebar: jekyllhowto
 
 navbar_links_align: right
 
