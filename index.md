@@ -1,7 +1,6 @@
 ---
 title: "Digital.ai Product Documentation"
 permalink: index.html
-sidebar: generic
 type: homepage
 path: some path
 ---
