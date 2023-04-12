@@ -1,0 +1,55 @@
+{% include topnav.html %}
+
+
+<div class="container">
+        <div class="row row-offcanvas row-offcanvas-left">
+
+            <!-- sidebar -->
+            <!-- <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar" role="navigation">
+
+                {% include sidebar.html %}
+
+            </div> -->
+
+            <!-- main area -->
+            <div class="col-xs-18 col-sm-12 main">
+
+                    <div class="subtitle">
+                    {% include breadcrumb.html %}
+                      </div>
+
+                      {% if page.simple_map == true %}
+
+                      <script>
+                          $(document).ready ( function(){
+                              $('.box{{page.box_number}}').addClass('active');
+                          });
+                      </script>
+
+                      {% include {{page.map_name}} %}
+
+
+                      {% endif %}
+
+
+                    <h1>{{page.title}}</h1>
+
+
+                    {{content}}
+
+                    {% include disqus.html %}
+
+
+            </div>
+        </div><!--/.container-->
+
+
+    </div><!--/.page-container-->
+    {% include footer.html %}
+    <!--scripts loaded here-->
+
+
+
+</body>
+
+</html>
